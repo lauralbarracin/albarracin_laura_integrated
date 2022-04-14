@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title class="hidden">My True Friend </title>  
+  <link rel="stylesheet" href="css/main.css">  
+</head>
+<body>
+    <div class="container">
+      <h1 class="hidden">My True Friend</h1>
+      <header class="mainHeader grid">
+        <a class="skip-to-content-link" href="#mainContent">
+          skip to content
+        </a>
+        <div class="logoHeader">
+          <img src="img/svg/logo.svg" alt="Logo" id="logo">
+        </div>
+        <nav class="mainNav" aria-label="Main Navigation">
+          <h2 class="hidden">Main Navigation</h2>
+              <ul>
+                 <li class="selected"><a href="index.html">Home</a></li>
+                 <li><a href="#">Services & Rates</a></li>
+                 <li><a href="Learning.html">Learning</a></li>
+                 <li><a href="contact.html">Contact/Book now</a></li> 
+              </ul>
+        </nav>
+      </header>
+
+  <main id="mainContact">
+
+    
+    <div class="contact grid">
+      <section id="contactForm">
+        <h2>Contact</h2>
+        <form id="contactInfo" action="form.php" method="post">
+          <label for="name">Name: <span class="required">(required)</span></label>
+          <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+          <label for="email">Email:</label>
+          <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+          <label for="phone">Phone: <span class="required">(required)</span></label>
+          <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+          <label for="comments">Comments:</label>
+          <textarea name="comments" id="comments" required cols="20" rows="6"></textarea>
+                                 
+          <input id="submit" type="submit" value="Submit">
+        </form>
+      </section>
+
+
+    
+      <section id="bookForm">
+        <h2> Book Now </h2>
+        <form id="bookFormInfo" action="form.php" method="post">
+          <label for="name">Name: <span class="required">(required)</span></label>
+          <input type="text" name="fullName" size="30">
+                    
+          <label for="Pet">Pets Name:</label>
+          <input type="text" size="10">
+                            
+          <label for="phone">Mobile Phone: <span class="required"></span></label>
+          <input type="text" required id="tel"  placeholder="Enter Phone Number">
+                    
+          <label for="age">Pet`s age:</label>
+          <input type="number">
+           
+          <label for="Check-in">Check-in<span class="required">(required)</span></label>
+          <input type="date" size="6">
+
+          <label for="Check-out">Check-out<span class="required">(required)</span></label>
+          <input type="date" size="6">
+          
+          <input id="Book" type="submit" value="book">
+        </form>
+
+      </section>
+    </div>  
+  </main>
+
+    <footer class="grid">
+      <img src="img/svg/logo.svg" alt="MyTrueFriend Logo" width="139" height="102">
+      
+        <section id="contact">
+          <h4> <b>Contact</b>
+           <b> Address:</b> 380 King ST, London, ON
+           <b> Phone:</b> 226 6379036
+           <b> E-mail: </b> contact@mytruefriend.com</h4>
+        </section>
+     
+      <section id="socialMedia">
+        <h2 class="hidden">Social media links</h2>
+        
+            <a href="http://www.facebook.com">
+              <img src="img/svg/facebook_logo.svg" alt="facebook logo" width="45" height="45">
+            </a>
+            <a href="http://www.instagram.com">
+              <img src="img/svg/Instagram_logo.svg" alt="Instagram logo" width="45" height="45">
+            </a>
+         
+      </section>
+
+    </footer>
+  
+
+  </div> 
+</body>
+</html>
